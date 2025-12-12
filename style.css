@@ -3,6 +3,11 @@
   src: url("/Blackpearl.woff2");
 }
 
+@font-face {
+  font-family: CaptainsTable;
+  src: url("/CaptainsTable.woff2");
+}
+
 body {
   background-image: url("mapbg3.jpg");
 }
@@ -11,4 +16,11 @@ h1 {
   font-family: BlackPearl;
   font-size: 5em;
   text-align: center;
+  padding: 0.5em;
+}
+
+h2 {
+  font-family: CaptainsTable;
+  font-size: 2em;
+  text align: center:
 }
