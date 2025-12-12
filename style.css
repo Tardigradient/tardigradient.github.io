@@ -1,3 +1,7 @@
 body {
   background-image: url("mapbg2.jpg");
 }
+
+.h1 {
+  font-family: url("blackpearl.ttf");
+}
