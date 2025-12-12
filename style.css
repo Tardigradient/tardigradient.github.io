@@ -14,7 +14,7 @@ body {
 
 h1 {
   font-family: BlackPearl;
-  font-size: clamp(1rem, 4vw, 3rem);
+  font-size: clamp(1rem, 4vw, 4rem);
 
   text-align: center;
 }
