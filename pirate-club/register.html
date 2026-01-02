@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Pirate Club</title>
+    <meta name="description" content="Register for Pirate Club meetings and the annual treasure hunt">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">PIRATE CLUB</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="info.html">Info</a></li>
+                <li><a href="register.html" class="active">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Join the Crew</h1>
+            <p>Register for meetings or sign up for the treasure hunt</p>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <div class="register-options">
+                <div class="register-card">
+                    <h2>Join Our Meetings</h2>
+                    <p>Come to any meeting - no registration required!</p>
+                    <div class="register-details">
+                        <p><strong>When:</strong> Every other Thursday at 7:00 PM</p>
+                        <p><strong>Where:</strong> TBA (check GroupMe)</p>
+                        <p><strong>Cost:</strong> Free!</p>
+                    </div>
+                    <a href="https://groupme.com/join_group/109593496/xvOxNmQ1" class="btn btn-primary" target="_blank">Join GroupMe</a>
+                    <p class="register-note">Stay updated on meeting locations and club announcements</p>
+                </div>
+
+                <div class="register-card register-card-highlight">
+                    <h2>Treasure Hunt Registration</h2>
+                    <p>Sign up for our annual campus-wide scavenger hunt!</p>
+                    <div class="register-details">
+                        <p><strong>Start Date:</strong> March 1st, 2026</p>
+                        <p><strong>Entry Fee:</strong> $4</p>
+                        <p><strong>Prize:</strong> Gift cards & goodies worth $50+</p>
+                    </div>
+                    
+                    <div class="registration-steps">
+                        <h3>How to Register:</h3>
+                        <ol>
+                            <li>
+                                <strong>Step 1:</strong> Send $4 to 
+                                <a href="https://www.venmo.com/u/pirateclub" target="_blank">@pirateclub on Venmo</a>
+                                <br><small>Include your A number in the payment note</small>
+                            </li>
+                            <li>
+                                <strong>Step 2:</strong> Fill out the registration form below
+                            </li>
+                            <li>
+                                <strong>Step 3:</strong> Receive your treasure map and clues!
+                            </li>
+                        </ol>
+                    </div>
+
+                    <a href="#registration-form" class="btn btn-large">Register for Hunt</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-dark" id="registration-form">
+        <div class="container">
+            <h2 class="section-title">Treasure Hunt Registration Form</h2>
+            <p class="section-text">Complete this form after sending your payment via Venmo</p>
+            
+            <div class="form-container">
+                <form class="registration-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="anumber">USU A Number *</label>
+                        <input type="text" id="anumber" name="anumber" placeholder="A00123456" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="venmo">Venmo Username *</label>
+                        <input type="text" id="venmo" name="venmo" placeholder="@username" required>
+                        <small>Used to verify your payment</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="team">Team Name (Optional)</label>
+                        <input type="text" id="team" name="team" placeholder="The Scurvy Dogs">
+                        <small>Hunting with a partner? Give your team a name!</small>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <label>
+                            <input type="checkbox" name="groupme" value="yes">
+                            I've joined the GroupMe for updates
+                        </label>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <label>
+                            <input type="checkbox" name="terms" value="yes" required>
+                            I agree to follow all campus rules during the treasure hunt *
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-large">Submit Registration</button>
+                </form>
+
+                <div class="form-note">
+                    <p><strong>Note:</strong> This is a sample form. To actually register, please use our official Qualtrics form or contact us directly via GroupMe.</p>
+                    <a href="https://groupme.com/join_group/109593496/xvOxNmQ1" class="btn btn-secondary" target="_blank">Contact via GroupMe</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Questions?</h2>
+            <div class="contact-info">
+                <p>If you have any questions about registration or the treasure hunt, reach out to us!</p>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <p><strong>GroupMe:</strong> <a href="https://groupme.com/join_group/109593496/xvOxNmQ1" target="_blank">Join Here</a></p>
+                    </div>
+                    <div class="contact-method">
+                        <p><strong>Venmo:</strong> <a href="https://www.venmo.com/u/pirateclub" target="_blank">@pirateclub</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 USU Pirate Club. All rights reserved.</p>
+            <p>Every other Thursday at 7:00 PM</p>
+        </div>
+    </footer>
+</body>
+</html>
