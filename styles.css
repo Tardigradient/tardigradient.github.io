@@ -1,17 +1,17 @@
 @font-face {
     font-family: BlackPearl;
-    src: url("https://treasurehunt.psdinofroz.net/Blackpearl.woff2");
+    src: url("Blackpearl.woff2");
 }
 
 @font-face {
     font-family: JMHEspinosa;
-    src: url("https://treasurehunt.psdinofroz.net/JMHEspinosa.woff2");
+    src: url("JMHEspinosa.woff2");
 }
 
 body {
     margin: 0;
     padding: 0;
-    background: #e8cf9b url('https://psdinofroz.net/mapbg3.jpg');
+    background: #e8cf9b url("mapbg3.jpg");
     font-family: 'Inter', sans-serif;
     color: #0a1a2f;
 }
