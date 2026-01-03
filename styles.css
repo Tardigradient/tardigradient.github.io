@@ -76,7 +76,7 @@ h1 {
     display: block;
     text-align: center;
     padding: 16px;
-    background: (214, 201, 126, 0.75);
+    background: rgba(214, 201, 126, 0.75);
     color: #0a1a2f;
     font-family: JMHEspinosa;
     font-weight: 600;
