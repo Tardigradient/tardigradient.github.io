@@ -73,6 +73,27 @@ h1 {
     line-height: 1.6;
     margin-bottom: 30px;
 }
+    
+.rules {
+    background: #fff;
+    border: 2px solid #d4a017;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.rules h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.rules ul {
+    padding-left: 20px;
+}
+
+.rules li {
+    margin-bottom: 10px;
+}
 
 .buttons {
     display: flex;
