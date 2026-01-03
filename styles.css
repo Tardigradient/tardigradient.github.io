@@ -73,7 +73,13 @@ h1 {
     line-height: 1.6;
     margin-bottom: 30px;
 }
-    
+
+.para a {
+    color: #0a1a2f;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 .rules {
     background: #fff;
     border: 2px solid #d4a017;
