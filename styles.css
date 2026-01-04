@@ -112,8 +112,12 @@ h1 {
     transition: background 0.2s ease;
 }
 
-.btn:hover .btnSecondary:hover {
+.btn:hover {
     background: #b88a12;
+}
+
+btnSecondary:hover {
+    background: #dbb043;
 }
 
 @media (max-width: 600px) {
