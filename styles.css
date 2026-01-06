@@ -8,6 +8,16 @@
     src: url("JMHEspinosa.woff2");
 }
 
+@font-face {
+    font-family: JMHOrnaments;
+    src: url("JMHOrnaments.woff2");
+}
+
+@font-face {
+    font-family: Skull;
+    src: url("Skull.woff2");
+}
+
 body {
     margin: 0;
     padding: 0;
