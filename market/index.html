@@ -161,9 +161,9 @@
       <div>
         <h1>Hook Pistol Cutlass</h1>
         <div class="rules rules-left">
-          <p>Pistol beats Cutlass</p>
-          <p>Cutlass beats Hook</p>
-          <p>Hook beats Pistol</p>
+          <p>PISTOL beats CUTLASS</p>
+          <p>CUTLASS beats HOOK</p>
+          <p>HOOK beats PISTOL</p>
         </div>
       </div>
     </section>
@@ -204,7 +204,7 @@
       void priceEl.offsetWidth;
       priceEl.classList.add("price-change");
 
-      const base = 60000; // ~1 minute
+      const base = 50000;
       const jitter = Math.floor(Math.random() * 25000) - 12000; // -12s to +13s
       const nextDelay = Math.max(35000, base + jitter);
 
