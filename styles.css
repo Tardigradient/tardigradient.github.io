@@ -1,21 +1,21 @@
 @font-face {
     font-family: BlackPearl;
-    src: url("Blackpearl.woff2");
+    src: url("/fonts/Blackpearl.woff2");
 }
 
 @font-face {
     font-family: JMHEspinosa;
-    src: url("JMHEspinosa.woff2");
+    src: url("/fonts/JMHEspinosa.woff2");
 }
 
 @font-face {
     font-family: JMHOrnaments;
-    src: url("JMHOrnaments.woff2");
+    src: url("/fonts/JMHOrnaments.woff2");
 }
 
 @font-face {
     font-family: Skull;
-    src: url("Skull.woff2");
+    src: url("/fonts/Skull.woff2");
 }
 
 body {
