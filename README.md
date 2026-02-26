@@ -1,1 +1,1 @@
-what's up
+The website for the USU pirate club.
