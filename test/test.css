@@ -1,1 +1,138 @@
+@font-face {
+    font-family: BlackPearl;
+    src: url("/fonts/Blackpearl.woff2");
+}
 
+@font-face {
+    font-family: JMHEspinosa;
+    src: url("/fonts/JMHEspinosa.woff2");
+}
+
+@font-face {
+    font-family: JMHOrnaments;
+    src: url("/fonts/JMHOrnaments.woff2");
+}
+
+@font-face {
+    font-family: Skull;
+    src: url("/fonts/Skull.woff2");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e8cf9b url("mapbg3.jpg");
+    font-family: 'Inter', sans-serif;
+    color: #0a1a2f;
+}
+
+.container {
+    max-width: 750px;
+    margin: 40px auto;
+    margin-bottom: 10px;
+    background: rgba(255,255,255,0.5);
+    padding: 32px;
+    padding-top: 10px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+h1 {
+    font-family: BlackPearl;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0a1a2f;
+}
+
+.subtitle {
+    font-family: JMHEspinosa;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #3a3a3a;
+}
+
+.para {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.para a {
+    color: #0a1a2f;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.rules {
+    background: #fff;
+    border: 2px solid #d4a017;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.rules h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.rules ul {
+    padding-left: 20px;
+}
+
+.rules li {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom:16px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background: #dbb043;
+    color: #0a1a2f;
+    font-family: JMHEspinosa;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background 0.2s ease;
+}
+
+.btnSecondary {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    border-color: #dbb043;
+    border-style: solid;
+    border-width: medium;
+    background: RGBA(255, 255, 255, 0.25);
+    color: #0a1a2f;
+    font-family: JMHEspinosa;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background 0.2s ease;
+}
+
+.btn:hover {
+    background: #b88a12;
+}
+
+.btnSecondary:hover {
+    background: #dbb043;
+}
+
+@media (max-width: 600px) {
+    h1 { font-size: 2.4rem; }
+    .container { padding: 24px; }
+}
