@@ -48,6 +48,11 @@ body {
     padding-top: 60px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.html {
+    background-image: linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0.2));
+}
 
 h1 {
     font-family: BoucherieBlock;
