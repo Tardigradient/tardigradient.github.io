@@ -51,6 +51,12 @@ body {
     height: 92.5vh; 
 }
 
+@media only screen and (max-width: 600px) {
+    .bigContainer {
+        padding-top:10px;
+    }
+}
+
 h1 {
     font-family: BoucherieBlock;
     font-size: 3rem;
