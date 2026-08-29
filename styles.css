@@ -43,8 +43,8 @@ body {
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-.bigContainer {
-    background-image: linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0.2));
+.shader {
+    background-image: linear-gradient(to right, rgba(200,200,200,0.3), rgba(200,200,200,0.2));
     padding: 60px 10px 0px 10px; 
 }
 
