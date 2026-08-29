@@ -56,7 +56,7 @@ body {
 
 @media only screen and (min-width: 600px) {
     .bigContainer {
-        height: 92.5vh;
+        height: 100vh;
     }
 }
 
@@ -66,6 +66,11 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #0a1a2f;
+}
+
+@media (max-width: 600px) {
+    h1 { font-size: 2.4rem; }
+    .container { padding: 24px; }
 }
 
 .subtitle {
@@ -120,8 +125,8 @@ h1 {
     display: block;
     text-align: center;
     padding: 16px;
-    background: #dbb043;
-    color: #0a1a2f;
+    background:#34C0D9;
+    color: #FFFFFF;
     font-family: JMHEspinosa;
     font-weight: 600;
     border-radius: 10px;
@@ -134,11 +139,11 @@ h1 {
     display: block;
     text-align: center;
     padding: 16px;
-    border-color: #dbb043;
+    border-color: #34C0D9;
     border-style: solid;
     border-width: medium;
     background: RGBA(255, 255, 255, 0.25);
-    color: #0a1a2f;
+    color: #30304A;
     font-family: JMHEspinosa;
     font-weight: 600;
     border-radius: 10px;
@@ -148,14 +153,10 @@ h1 {
 }
 
 .btn:hover {
-    background: #b88a12;
+    background: #219AB0;
 }
 
 .btnSecondary:hover {
-    background: #dbb043;
-}
-
-@media (max-width: 600px) {
-    h1 { font-size: 2.4rem; }
-    .container { padding: 24px; }
+    background: #219AB0;
+    color: #ffffff;
 }
