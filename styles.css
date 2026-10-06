@@ -28,6 +28,7 @@ body {
     padding: 0;
     background: #76E8C2 url("/bgs/islandbg1.jpeg");
     background-size: cover;
+    background-repeat: no-repeat;
     color: #0a1a2f;
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
