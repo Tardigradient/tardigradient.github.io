@@ -51,6 +51,7 @@ body {
 .shader {
     background-image: linear-gradient(to right, rgba(200,200,200,0.3), rgba(200,200,200,0.2));
     padding: 60px 10px 0px 10px; 
+    height: 100vh;
 }
 
 @media only screen and (max-width: 600px) {
